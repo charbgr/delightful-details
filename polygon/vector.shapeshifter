@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "18",
+      "name": "vector",
+      "type": "vector",
+      "width": 512,
+      "height": 512,
+      "children": [
+        {
+          "id": "16",
+          "name": "polygon3",
+          "type": "path",
+          "pathData": "M 338.9 504.1 L 179.1 504.1 L 259 365.8 Z",
+          "strokeColor": "#000000",
+          "strokeWidth": 1,
+          "strokeMiterLimit": 10
+        },
+        {
+          "id": "36",
+          "name": "polygon5",
+          "type": "path",
+          "pathData": "M 259 255.6 L 128.5 350.4 L 178.3 503.9 L 339.7 503.9 L 389.5 350.4 Z",
+          "strokeColor": "#000000",
+          "strokeWidth": 1,
+          "strokeMiterLimit": 10
+        },
+        {
+          "id": "1396",
+          "name": "polygon7",
+          "type": "path",
+          "pathData": "M 259 155.5 L 115.1 224.7 L 79.5 380 L 179.1 504.5 L 338.9 504.5 L 438.5 380 L 402.9 224.7 Z",
+          "strokeColor": "#000000",
+          "strokeWidth": 1,
+          "strokeMiterLimit": 10
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "40",
+      "name": "anim",
+      "duration": 3500,
+      "blocks": [
+        {
+          "id": "46",
+          "layerId": "16",
+          "propertyName": "pathData",
+          "startTime": 0,
+          "endTime": 500,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 338.9 504.1 L 179.1 504.1 L 222.239 429.43 L 259 365.8 L 294.697 427.588 L 338.9 504.1",
+          "toValue": "M 339.7 503.9 L 178.3 503.9 L 128.5 350.4 L 259 255.6 L 389.5 350.4 L 339.7 503.9"
+        },
+        {
+          "id": "1062",
+          "layerId": "36",
+          "propertyName": "pathData",
+          "startTime": 1000,
+          "endTime": 1500,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 259 255.6 L 128.5 350.4 L 138.296 380.593 L 178.3 503.9 L 339.7 503.9 L 379.832 380.199 L 389.5 350.4 Z",
+          "toValue": "M 259 155.5 L 115.1 224.7 L 79.5 380 L 179.1 504.5 L 338.9 504.5 L 438.5 380 L 402.9 224.7 Z"
+        },
+        {
+          "id": "4705",
+          "layerId": "36",
+          "propertyName": "strokeAlpha",
+          "startTime": 0,
+          "endTime": 1000,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 0
+        },
+        {
+          "id": "4952",
+          "layerId": "36",
+          "propertyName": "strokeAlpha",
+          "startTime": 1000,
+          "endTime": 1001,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 1
+        },
+        {
+          "id": "5663",
+          "layerId": "1396",
+          "propertyName": "strokeAlpha",
+          "startTime": 0,
+          "endTime": 2000,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 0
+        },
+        {
+          "id": "5664",
+          "layerId": "1396",
+          "propertyName": "strokeAlpha",
+          "startTime": 2000,
+          "endTime": 2001,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 1
+        },
+        {
+          "id": "5666",
+          "layerId": "1396",
+          "propertyName": "pathData",
+          "startTime": 2000,
+          "endTime": 2500,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 259 155.5 L 187.05 190.1 L 115.1 224.7 L 79.5 380 L 179.1 504.5 L 338.9 504.5 L 438.5 380 L 402.9 224.7 L 330.95 190.1 Z",
+          "toValue": "M 259.1 42.8 L 106.2 98.4 L 24.8 239.4 L 53 399.7 L 177.7 504.4 L 340.5 504.4 L 465.2 399.7 L 493.5 239.4 L 412.1 98.4 Z"
+        }
+      ]
+    }
+  }
+}
